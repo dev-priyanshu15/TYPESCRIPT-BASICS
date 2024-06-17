@@ -30,27 +30,6 @@ const obj3 = {
     height: 4434,
     weight: 94,
 };
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---type;
-FuncType = (n, m, l) => number;
 // Optional Parameter
 const func = (n, m, l) => {
     if (typeof l === "undefined")
@@ -88,25 +67,8 @@ Type;
 const errorHandler = () => {
     throw new Error();
 };
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---classes;
+//--------------------------------------
+classes;
 class Player {
     height;
     weight;
@@ -154,29 +116,8 @@ class Product {
     getId = () => this.id;
 }
 const product1 = new Product("Macbook", 2000, 20);
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
--- -
-    Type;
+//---------------------------------------------
+Type;
 Assertion;
 const btn = document.getElementById("btn");
 const btn = document.getElementById("btn");
@@ -195,8 +136,6 @@ form.onsubmit = (e) => {
     h2.textContent = String(value + 20);
     body.append(h2);
 };
-Keyof & Index;
-Signature;
 const myobj = {
     name: "Abhi",
     email: "abhI@gmail.com",
@@ -213,25 +152,8 @@ const getData = (key) => {
     return myobj[key];
 };
 getData("name");
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---Type;
+//--------------------------------------
+Type;
 Utility;
 Partial;
 Required;
@@ -305,39 +227,8 @@ const user = {
     s: "44",
     t: "ssds"
 };
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
---;
--- -
-    Generics;
+//-----------------------------------------------------------------
+Generics;
 const func = (n) => {
     return n;
 };
