@@ -75,19 +75,19 @@ const func: FuncType = (...m) => {
   return m;
 };
 func(25, 23, 34, 6, 67, 8, 9);
-
+//in ya func me n ka retur type num hai 
 function lol(n:number):number{
     return 45
 }
 
-function with Obj
+//function with Obj
 
 interface Product {
   name: string;
   stock: number;
   price: number;
   photo: string;
-  readonly id: string;
+  readonly id: string;//readonly hai we cant change this
 }
 
 type GetDataType = (product: Product) => void;
@@ -106,15 +106,27 @@ const productOne: Product = {☺
 
 getData(productOne);
 
-Never Type
+//Never Type
 
 const errorHandler = (): never => {
   throw new Error();
 };
-
+//type themeMode="light"|"dark";
+//const mode:themeMode="asd"          -------eror kewal light or dark ho sakta hai
 //--------------------------------------
 
-classes
+//classes typescript
+
+//class Player{
+//height;
+//weight;
+//constructor(height:number ,weight: numbewr){
+  //this.height=height;
+ // t....weight=...;
+//}
+//}
+//const abhi= new Player(100,150);
+//clg(abhi.h...|weihght)
 
 class Player {
   public readonly id: string;
@@ -180,7 +192,7 @@ const product1 = new Product("Macbook", 2000, 20);
 
 //---------------------------------------------
 
-Type Assertion
+//Type Assertion
 
 const btn = document.getElementById("btn")!;
 const btn = document.getElementById("btn") as HTMLElement;
